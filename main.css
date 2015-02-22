@@ -1,0 +1,1297 @@
+html
+{
+    height: 100%;
+    background: linear-gradient(0deg, white, black 111%) no-repeat;
+}
+body 
+{
+    margin:0;
+    font-family:Arial;
+}
+.bodyHeader
+{
+    height:47px;
+    width:100%;
+    background-color:#03528a;
+}
+body > h1 
+{
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: -5%;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+}
+section
+{
+    display: block;
+    height: 414px;
+    width: 83.508%;
+    margin: 5% auto;
+}
+.divFlexBox
+{
+    width:100%;
+    display:flex;
+    text-align: center;
+
+}
+.divFlexBox > div
+{
+    flex:1;
+}
+.divFlexBox h2
+{
+    color:white;
+    font-family: arial;
+}
+h2 > span
+{
+    color:#e4061f;
+}
+.divForLine
+{
+    height: 2px;
+    width: 98%;
+    background-color: #274c72;
+    margin-top: 9%;
+}
+.leftDiv
+{
+    margin-left: -8%;
+}
+.rightDiv
+{
+    margin-left: 9.5%;
+
+}
+.infornationDiv
+{
+    float: left;
+    height: 64%;
+    width: 29.2%;
+    margin-left: 3.4%;
+    padding: 1%;
+    background-color: #dcdcdc;
+    color: #0e3862;
+}
+.infornationDiv h3
+{
+    margin-top: 2%;
+    font-size: 23px;
+}
+.psBox
+
+{
+    margin-top: -5%;
+    width: 98%;
+    font-size: 18px;
+}
+.pRedColor
+{
+    color: #e4061f;
+    font-size: 18.5px;
+    margin-bottom: -5%;
+}
+.containerNumberOne
+{
+    width:95%;
+
+}
+.containerNumberTwo
+{
+    width:95%;
+    margin-top: 6%;
+}
+.containerNumberThree
+{
+    width:95%;
+    margin-top: 6%;
+}
+.radiusNumber
+{
+    display: inline-block;
+    background-color: #e4061f;
+    height: 100%;
+    width: 6%;
+    padding: 1.2%;
+    border-radius: 14px;
+    color: white;
+    margin-right: 1%;
+    text-align: center;
+    font-weight: 600;
+}
+.infornationDiv span
+{
+    display:inline-block;
+    font-weight:700;
+
+}
+
+.formDiv
+{
+    float: right;
+    height: 91%;
+    width: 30%;
+    margin-right: 3.5%;
+    margin-bottom: 6%;
+    background-color: #dcdcdc;
+    color: #0e3862;
+}
+.firstHeader
+{
+    text-align: center;
+    font-size: 20px;
+}
+.secondHeader
+{
+    text-align: center;
+    font-size: 22px;
+    margin-top: -5%;
+    color: #de001a;
+}
+.divInputBox
+{
+    margin-left: 8%;
+    margin-top: 5%;
+    width: 95%;
+    height: 15%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.spanForRequired
+{
+    color:#de001a;
+}
+.notValid
+{
+    border:1px solid #de001a;
+}
+.divInputBox  > div
+{
+    margin-top: 2%;
+    height: 100%;
+}
+input[type="text"] 
+{
+    outline: none;
+    height: 45%;
+    width: 85%;
+}
+input[type="button"]
+{
+    display: block;
+    background-color: #de001a;
+    color: white;
+    margin: 6% auto;
+    height: 10%;
+    font-weight: 600;
+    width: 45%;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+} 
+.classForValidationMessage
+{
+    display:none;
+    font-size: 12px;    
+}
+.divFromAjax
+{
+    margin-top:15%;
+    display:none;
+}
+.divFromAjax h3
+{
+    text-align: center;
+}
+.divFromAjax > p
+{
+    margin: 27% 12%;
+    font-size: 17px;
+    font-weight: 700;
+    color: #de001a;
+}
+.divFromAjax > span
+{
+    margin-top: -16%;
+    text-align: center;
+    display: block;
+    color: #de001a;
+    font-weight: 700;
+}
+footer 
+{
+    height: 47px;
+    width: 100%;
+    background-color: #03528a;
+    line-height: 193%;
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-size: 82%;
+    position: fixed;
+    bottom: 0%;
+}
+@media screen and (max-width : 1352px) and (min-width : 1228px){
+    
+    .infornationDiv h3
+    {
+        font-size: 22px;
+
+    }
+    .psBox
+    {
+        font-size: 17px;
+    }
+    .pRedColor
+    {
+        font-size: 17.5px;
+    }
+    .infornationDiv span 
+    {
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width : 1228px) and (min-width : 1113px){
+   
+     .divForLine
+    {
+       margin-top: 11%;
+    }
+    .infornationDiv h3
+    {
+        font-size: 21px;
+    }
+    .psBox
+    {
+        font-size: 16px;
+        width:100%;
+    }
+    .pRedColor
+    {
+        font-size: 16.5px;
+    }
+    .infornationDiv span 
+    {
+        font-size: 13px;
+    }
+    .formDiv
+    {
+        margin-bottom:11%;
+    }
+    .firstHeader
+    {
+        font-size:18px;
+    }
+    .secondHeader
+    {
+        font-size:20px;
+    }
+}
+@media screen and (max-width : 1113px) and (min-width : 966px) {
+
+    body > h1 
+    {
+        font-size:28px;
+    }
+    .divFlexBox h2
+    {
+        font-size: 22px;
+    }
+    .leftDiv
+    {
+        margin-left:-1%;
+    }
+    .divForLine
+    {
+       margin-top: 11%;
+       width: 89%;
+    }
+    .infornationDiv h3
+    {
+        font-size: 21px;
+    }
+    .psBox
+    {
+        font-size: 16px;
+        width:100%;
+    }
+    .pRedColor
+    {
+        font-size: 16.5px;
+    }
+    .radiusNumber
+    {
+        font-size: 15px;
+    }
+    .infornationDiv span 
+    {
+        font-size: 13px;
+    }
+    .formDiv
+    {
+        margin-bottom:11%;
+    }
+    .firstHeader
+    {
+        font-size:14px;
+    }
+    .secondHeader
+    {
+        font-size:16px;
+    }
+    .divInputBox 
+    {
+        width: 90%;
+        font-size: 12px;
+    }
+    .classForValidationMessage
+    {
+        font-size: 10px;    
+    }
+    input[type="button"]    
+    {
+        margin: 13% auto;
+        width: 40%;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width : 966px) and (min-width : 827px) {
+
+    body > h1 
+    {
+        font-size:28px;
+    }
+    .divFlexBox h2
+    {
+        font-size: 22px;
+    }
+    .leftDiv
+    {
+        margin-left:-1%;
+    }
+    .divForLine
+    {
+       margin-top: 13%;
+       width: 89%;
+    }
+    .infornationDiv h3
+    {
+        font-size: 19px;
+    }
+    .psBox
+    {
+        font-size: 15px;
+        width:100%;
+    }
+    .pRedColor
+    {
+        font-size: 15.5px;
+    }
+    .radiusNumber
+    {
+        font-size: 15px;
+    }
+    .infornationDiv span 
+    {
+        font-size: 11px;
+    }
+    .formDiv
+    {
+        margin-bottom:11%;
+    }
+    .firstHeader
+    {
+        font-size:13px;
+    }
+    .secondHeader
+    {
+        font-size:15px;
+    }
+    .divInputBox 
+    {
+        width: 88%;
+        font-size: 11px;
+    }
+    .classForValidationMessage
+    {
+        font-size: 10px;    
+    }
+    input[type="button"]    
+    {
+    margin: 18% auto;
+    width: 40%;
+    font-size: 10px;
+    height: 8%;
+    }
+
+}
+@media screen and (max-width : 827px) and (min-width : 744px) {
+
+    body > h1 
+    {
+        font-size:25px;
+    }
+    .divFlexBox h2
+    {
+        font-size: 19px;
+    }
+    .leftDiv
+    {
+        margin-left:-1%;
+    }
+    .divForLine
+    {
+       margin-top: 13%;
+       width: 89%;
+    }
+    .infornationDiv h3
+    {
+        font-size: 18px;
+    }
+    .psBox
+    {
+        font-size: 14px;
+        width:100%;
+    }
+    .pRedColor
+    {
+        font-size: 14.5px;
+    }
+    .containerNumberThree
+    {
+        width:100%;
+    }
+    .radiusNumber
+    {
+        font-size: 15px;
+    }
+    .infornationDiv span 
+    {
+        font-size: 11px;
+    }
+    .formDiv
+    {
+        margin-bottom:11%;
+    }
+    .firstHeader
+    {
+        font-size:11px;
+        margin-top: 13%;
+
+    }
+    .secondHeader
+    {
+        font-size:13px;
+        margin-bottom: 11%;
+    }
+    .divInputBox 
+    {
+        width: 88%;
+        font-size: 11px;
+    }
+    .classForValidationMessage
+    {
+        font-size: 10px;    
+    }
+    input[type="button"]    
+    {
+    margin: 20% auto;
+    width: 45%;
+    font-size: 9px;
+    height: 8%;
+    }
+    .divFromAjax h3 
+    {
+    font-size: 17px;
+    }
+    .divFromAjax > p 
+    {
+        font-size:15px;
+    }
+    .divFromAjax > span
+    {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 744px) and (min-width : 591px) {
+
+    body > h1 
+    {
+        font-size:25px;
+    }
+    .divFlexBox h2
+    {
+        font-size: 17px;
+    }
+    .leftDiv
+    {
+        margin-left:-1%;
+    }
+    .divForLine
+    {
+       margin-top: 13%;
+       width: 89%;
+    }
+    .infornationDiv h3
+    {
+        font-size: 16px;
+        margin-top: 7%;
+    }
+    .psBox
+    {
+    font-size: 11px;
+    width: 100%;
+    margin-bottom: 17%;
+    margin-top:-3%;
+    }
+    .pRedColor
+    {
+        font-size: 13.5px;
+    }
+    .containerNumberOne 
+    {
+        width: 95%;
+        margin-bottom: -7%;
+    }
+    .containerNumberTwo 
+    {
+        width: 95%;
+        margin-top: 17%;
+    }
+    .containerNumberThree
+    {
+        width:100%;
+        margin-top:9%;
+    }
+    .radiusNumber
+    {
+        font-size: 14px;
+    }
+    .infornationDiv span 
+    {
+        font-size: 9px;
+    }
+    .formDiv
+    {
+        margin-bottom:12%;
+    }
+    .firstHeader
+    {
+        font-size:9px;
+        margin-top: 13%;
+
+    }
+    .secondHeader
+    {
+        font-size:11px;
+        margin-bottom: 11%;
+    }
+    .divInputBox 
+    {
+        width: 88%;
+        font-size: 10px;
+    }
+    .classForValidationMessage
+    {
+        font-size: 10px;    
+    }
+    input[type="button"]    
+    {
+    margin: 20% auto;
+    width: 45%;
+    font-size: 8px;
+    height: 8%;
+    }
+    .divFromAjax h3 
+    {
+    font-size: 17px;
+    }
+    .divFromAjax > p 
+    {
+        font-size:15px;
+    }
+    .divFromAjax > span
+    {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 591px) and (min-width : 389px) {
+
+    html
+    {
+        height: 160%;
+    }
+    body > h1 
+    {
+        font-size: 25px;
+        margin-top: 5%;    
+    }
+    .divFlexBox h2
+    {
+        font-size: 20px;
+    }
+    .leftDiv
+    {
+        margin-left:-1%;
+    }
+    .divForLine
+    {
+        margin-top: 18%;
+        width: 89%;
+    }
+    .infornationDiv
+    {
+        float: none;
+        height: 64%;
+        width: 90%;
+        margin-left: 3.4%;
+        padding: 1%;
+        background-color: #dcdcdc;
+        color: #0e3862;
+    }
+    .infornationDiv h3 
+    {
+        font-size: 18px;
+        margin-top: 4%;
+        text-align: center;
+    }
+    .psBox
+    {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: -1%;
+        margin-top: -3%;
+        text-align:center;
+    }
+    .pRedColor 
+    {
+        font-size: 16.5px;
+        margin-bottom: -3%;
+    }
+    .containerNumberOne , .containerNumberTwo , .containerNumberThree
+    {
+        margin-left: 17%;
+    }
+    .infornationDiv span 
+    {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .radiusNumber 
+    {
+        font-size: 14px;
+        width: 4%;
+    }
+    .formDiv
+    {
+        float: none;
+        width: 92%;
+        margin-left: 3.4%;
+        margin-bottom: 17%;
+        height: 100%;
+    }
+    .firstHeader 
+    {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 7%;
+        padding-top: 5%;
+    }
+    .secondHeader
+    {
+        text-align: center;
+        font-size: 19px;
+        margin-top: -5%;
+        color: #de001a;
+    }
+    .divFromAjax
+    {
+        padding-top: 10%;
+    }
+}
+@media screen and (max-width : 389px) and (min-width : 352px) {
+    
+    html
+    {
+        height: 160%;
+    }
+
+    body > h1 
+    {
+        font-size: 23px;
+        margin-top: 5%;    
+    }
+    .divFlexBox h2
+    {
+        font-size: 18px;
+    }
+    .leftDiv
+    {
+        margin-left:-1%;
+    }
+    .divForLine
+    {
+        margin-top: 30%;
+        width: 89%;
+    }
+    .infornationDiv
+    {
+        float: none;
+        height: 64%;
+        width: 90%;
+        margin-left: 3.4%;
+        padding: 1%;
+        background-color: #dcdcdc;
+        color: #0e3862;
+    }
+    .infornationDiv h3 
+    {
+        font-size: 16px;
+        margin-top: 4%;
+        text-align: center;
+    }
+    .psBox
+    {
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 4%;
+        margin-top: -3%;
+        text-align:center;
+    }
+    .pRedColor 
+    {
+        font-size: 14.5px;
+        margin-bottom: -3%;
+    }
+    .containerNumberOne , .containerNumberTwo , .containerNumberThree
+    {
+        margin-left: 15%;
+    }
+    .infornationDiv span 
+    {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    .radiusNumber 
+    {
+        font-size: 14px;
+        width: 4%;
+    }
+    .formDiv
+    {
+        float: none;
+        width: 92%;
+        margin-left: 3.4%;
+        margin-bottom: 21%;
+        height: 100%;
+    }
+    .firstHeader 
+    {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 7%;
+        padding-top: 7%;
+    }
+    .secondHeader
+    {
+        text-align: center;
+        font-size: 17px;
+        margin-top: -5%;
+        color: #de001a;
+    }
+    input[type="button"]
+    {
+        margin-top: 14%;
+        height: 9%;
+    }
+    .divFromAjax
+    {
+        padding-top: 10%;
+    }
+}
+@media screen and (max-width : 352px) and (min-width : 315px) {
+
+    html
+    {
+        height: 160%;
+    }
+    body > h1 
+    {
+        font-size: 21px;
+        margin-top: 5%;    
+    }
+    .divFlexBox h2
+    {
+        font-size: 16px;
+    }
+    .leftDiv
+    {
+        margin-left:-1%;
+    }
+    .divForLine
+    {
+        margin-top: 30%;
+        width: 89%;
+    }
+    .infornationDiv
+    {
+        float: none;
+        height: 64%;
+        width: 90%;
+        margin-left: 3.4%;
+        padding: 1%;
+        background-color: #dcdcdc;
+        color: #0e3862;
+    }
+    .infornationDiv h3 
+    {
+        font-size: 14px;
+        margin-top: 6%;
+        text-align: center;
+    }
+    .psBox
+    {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 8%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .pRedColor 
+    {
+        font-size: 12.5px;
+        margin-bottom: -3%;
+    }
+    .containerNumberOne , .containerNumberTwo , .containerNumberThree
+    {
+        margin-left: 13%;
+    }
+    .infornationDiv span 
+    {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 11px;
+    }
+    .radiusNumber 
+    {
+        font-size: 13px;
+        width: 4%;
+    }
+    .formDiv
+    {
+        float: none;
+        width: 92%;
+        margin-left: 3.4%;
+        margin-bottom: 21%;
+        height: 100%;
+    }
+    .firstHeader 
+    {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 7%;
+        padding-top: 7%;
+    }
+    .secondHeader
+    {
+        text-align: center;
+        font-size: 15px;
+        margin-top: -5%;
+        color: #de001a;
+        margin-bottom: 10%;
+    }
+    .divInputBox
+    {
+        font-size: 12px;
+    }
+    input[type="button"]
+    {
+        margin-top: 17%;
+        height: 9%;
+        font-size: 12px;
+    }
+    .divFromAjax
+    {
+        padding-top: 10%;
+    }
+}
+@media screen and (max-width : 315px) and (min-width : 255px) {
+
+    html
+    {
+        height: 160%;
+    }
+    body > h1 
+    {
+        font-size: 19px;
+        margin-top: 5%;    
+    }
+    .divFlexBox h2
+    {
+        font-size: 14px;
+    }
+    .leftDiv
+    {
+        margin-left:-1%;
+    }
+    .divForLine
+    {
+        margin-top: 30%;
+        width: 89%;
+    }
+    .infornationDiv
+    {
+        float: none;
+        height: 64%;
+        width: 90%;
+        margin-left: 3.4%;
+        padding: 1%;
+        background-color: #dcdcdc;
+        color: #0e3862;
+    }
+    .infornationDiv h3 
+    {
+        font-size: 12px;
+        margin-top: 11%;
+        text-align: center;
+    }
+    .psBox
+    {
+        font-size: 10px;
+        width: 100%;
+        margin-bottom: 15%;
+        margin-top: 7%;
+        text-align: center;
+    }
+    .pRedColor 
+    {
+        font-size: 10.5px;
+        margin-bottom: -3%;
+    }
+    .containerNumberOne , .containerNumberTwo , .containerNumberThree
+    {
+        margin-left: 13%;
+    }
+    .infornationDiv span 
+    {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 9px;
+    }
+    .radiusNumber 
+    {
+        font-size: 11px;
+        width: 4%;
+    }
+    .formDiv
+    {
+        float: none;
+        width: 92%;
+        margin-left: 3.4%;
+        margin-bottom: 21%;
+        height: 100%;
+    }
+    .firstHeader 
+    {
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 8%;
+        padding-top: 12%;
+    }
+    .secondHeader
+    {
+        text-align: center;
+        font-size: 13px;
+        margin-top: -5%;
+        color: #de001a;
+        margin-bottom: 12%;
+    }
+    .divInputBox
+    {
+        font-size: 10px;
+    }
+    input[type="button"]
+    {
+        margin-top: 17%;
+        height: 8%;
+        font-size: 8.4px;
+    }
+    .divFromAjax
+    {
+        padding-top: 10%;
+    }
+}
+@media screen and (max-width : 255px)  {
+
+    html
+    {
+        height: 165%;
+    }
+    body > h1 
+    {
+        font-size: 18px;
+        margin-top: 5%;    
+    }
+    .divFlexBox h2
+    {
+        font-size: 13px;
+    }
+    .leftDiv
+    {
+        margin-left:-1%;
+    }
+    .divForLine
+    {
+        margin-top: 30%;
+        width: 89%;
+    }
+    .infornationDiv
+    {
+        float: none;
+        height: 64%;
+        width: 90%;
+        margin-left: 3.4%;
+        padding: 1%;
+        background-color: #dcdcdc;
+        color: #0e3862;
+    }
+    .infornationDiv h3 
+    {
+        font-size: 11px;
+        margin-top: 11%;
+        text-align: center;
+    }
+    .psBox
+    {
+        font-size: 9px;
+        width: 100%;
+        margin-bottom: 15%;
+        margin-top: 7%;
+        text-align: center;
+    }
+    .pRedColor 
+    {
+        font-size: 9.5px;
+        margin-bottom: -3%;
+    }
+    .containerNumberOne , .containerNumberTwo , .containerNumberThree
+    {
+        margin-left: 13%;
+    }
+    .infornationDiv span 
+    {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 8px;
+    }
+    .radiusNumber 
+    {
+        font-size: 10px;
+        width: 4%;
+    }
+    .formDiv
+    {
+        float: none;
+        width: 92%;
+        margin-left: 3.4%;
+        margin-bottom: 21%;
+        height: 100%;
+    }
+    .firstHeader 
+    {
+        text-align: center;
+        font-size: 11px;
+        margin-bottom: 8%;
+        padding-top: 12%;
+    }
+    .secondHeader
+    {
+        text-align: center;
+        font-size: 12px;
+        margin-top: -5%;
+        color: #de001a;
+        margin-bottom: 12%;
+    }
+    .divInputBox
+    {
+        font-size: 9px;
+    }
+    input[type="button"]
+    {
+        margin-top: 17%;
+        height: 8%;
+        font-size: 8.4px;
+    }
+    .divFromAjax
+    {
+        padding-top: 10%;
+    }
+}
+@media screen and (max-height : 526px) and (max-height : 492px) {
+
+    html
+    {
+        height: 116%;
+    }
+}
+@media screen and (max-height : 492px) and (max-height : 450px) {
+
+    html
+    {
+        height: 116%;
+    }
+}
+@media screen and (max-height : 450px) and (max-height : 413px) {
+
+    html
+    {
+        height: 133%;
+    }
+}
+@media screen and (max-height : 413px) and (max-height : 363px) {
+
+    html
+    {
+        height: 150%;
+    }
+}
+@media screen and (max-height : 363px) and (max-height : 313px) {
+
+    html
+    {
+        height: 165%;
+    }
+}
+@media screen and (max-height : 313px) and (max-height : 288px) {
+
+    html
+    {
+        height: 190%;
+    }
+}
+@media screen and (max-height : 288px) and (max-height : 246px) {
+
+    html
+    {
+        height: 225%;
+    }
+}
+@media screen and (max-height : 246px) /*and (max-height : 246px)*/ {
+
+    html
+    {
+        height: 250%;
+    }
+}
+@media handheld {
+
+    html
+    {
+        height: 165%;
+    }
+    body > h1 
+    {
+        font-size: 18px;
+        margin-top: 5%;    
+    }
+    .divFlexBox h2
+    {
+        font-size: 13px;
+    }
+    .leftDiv
+    {
+        margin-left:-1%;
+    }
+    .divForLine
+    {
+        margin-top: 30%;
+        width: 89%;
+    }
+    .infornationDiv
+    {
+        float: none;
+        height: 64%;
+        width: 90%;
+        margin-left: 3.4%;
+        padding: 1%;
+        background-color: #dcdcdc;
+        color: #0e3862;
+    }
+    .infornationDiv h3 
+    {
+        font-size: 11px;
+        margin-top: 11%;
+        text-align: center;
+    }
+    .psBox
+    {
+        font-size: 9px;
+        width: 100%;
+        margin-bottom: 15%;
+        margin-top: 7%;
+        text-align: center;
+    }
+    .pRedColor 
+    {
+        font-size: 9.5px;
+        margin-bottom: -3%;
+    }
+    .containerNumberOne , .containerNumberTwo , .containerNumberThree
+    {
+        margin-left: 13%;
+    }
+    .infornationDiv span 
+    {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 8px;
+    }
+    .radiusNumber 
+    {
+        font-size: 10px;
+        width: 4%;
+    }
+    .formDiv
+    {
+        float: none;
+        width: 92%;
+        margin-left: 3.4%;
+        margin-bottom: 21%;
+        height: 100%;
+    }
+    .firstHeader 
+    {
+        text-align: center;
+        font-size: 11px;
+        margin-bottom: 8%;
+        padding-top: 12%;
+    }
+    .secondHeader
+    {
+        text-align: center;
+        font-size: 12px;
+        margin-top: -5%;
+        color: #de001a;
+        margin-bottom: 12%;
+    }
+    .divInputBox
+    {
+        font-size: 9px;
+    }
+    input[type="button"]
+    {
+        margin-top: 17%;
+        height: 8%;
+        font-size: 8.4px;
+    }
+    .divFromAjax
+    {
+        padding-top: 10%;
+    }
+}
