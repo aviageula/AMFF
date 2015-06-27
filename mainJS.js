@@ -1,15 +1,20 @@
+
 function inputsValidation() {
 
-    if ($("[name='name']").val().trim().length < 1) {
-        $("[name='name']").addClass("notValid").focus().parent().prev().show();
+    var inputName = $("[name='name']");
+    var inputEmail = $("[name='email']");
+    var inputPhone = $("[name='phoneNumber']");
+
+    if ($(inputName).val().trim().length < 1) {
+        $(inputName).addClass("notValid").focus().parent().prev().show();
     }
-    if (($("[name='email']").val().trim().indexOf("@") < 3) || ($("[name='email']").val().trim().indexOf(".") < 1)) {
-        $("[name='email']").addClass("notValid").select().parent().prev().show();
+    if (($(inputEmail).val().trim().indexOf("@") < 3) || ($("[name='email']").val().trim().indexOf(".") < 1)) {
+        $(inputEmail).addClass("notValid").select().parent().prev().show();
     }
-    if ($("[name='phoneNumber']").val().trim().length < 5) {
-        $("[name='phoneNumber']").addClass("notValid").select().parent().prev().show();
+    if ($(inputPhone).val().trim().length < 5) {
+        $(inputPhone).addClass("notValid").select().parent().prev().show();
     }
-    if (!($("[name='name']").hasClass("notValid")) && !($("[name='email']").hasClass("notValid")) && !($("[name='phoneNumber']").hasClass("notValid"))) {
+    if (!($(inputName).hasClass("notValid")) && !($(inputEmail).hasClass("notValid")) && !($(inputPhone).hasClass("notValid"))) {
         sendAndGetAjax();
     }
 }
@@ -45,7 +50,7 @@ $(document).ready(function () {
     $("footer > p > span").text(new Date().getFullYear());
     /*Using current year in the footer*/
 
-    $("[type='button']").on("click", function () {
+    $("[type='submit']").on("click", function () {
 
         inputsValidation();
 
